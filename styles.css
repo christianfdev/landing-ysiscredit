@@ -1,7 +1,7 @@
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 body,
@@ -350,7 +350,7 @@ a {
 
 #about-col-2 {
   width: 500px;
-  margin: 150px 8rem 0 0;
+  margin: 150px 0 0 0;
 }
 
 #about-col-2 span {
@@ -370,7 +370,7 @@ a {
 
 #depositions {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -438,7 +438,7 @@ a {
 
 #contact {
   height: 70vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .contact-title {
@@ -458,7 +458,7 @@ a {
   gap: 140px;
 }
 
-.div-contacts button {
+.whats-link {
   background-color: #143177;
   border-radius: 10px;
   border: none;
@@ -468,6 +468,20 @@ a {
   padding: 22px 55px 22px 10px;
   margin: 1rem 0 0 5rem;
   cursor: pointer;
+}
+
+.insta-link {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 22px 55px 22px 5px;
+  margin: 1rem 0 0 5rem;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0.1px 0.1px 27px 1px rgba(0, 0, 0, 0.2);
 }
 
 .div-contacts h2 {
@@ -494,11 +508,18 @@ a {
   background-size: 20%;
 }
 
+.btn-insta {
+  background-image: url(/assets/icon-insta.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20%;
+}
+
 /*---------- FOOTER ----------*/
 
 footer {
   height: 40px;
-  width: 100%;
+  width: 100vw;
   background-color: #143177;
   display: flex;
   align-items: center;
@@ -723,6 +744,9 @@ footer a {
     padding-left: 1rem;
   }
 
+  #col-2 {
+    width: 0;
+  }
   .img-ysis {
     width: 100%;
     height: 55%;
@@ -730,6 +754,7 @@ footer a {
 
   #services {
     height: 150vh;
+    width: 100%;
   }
 
   #why {
@@ -788,7 +813,7 @@ footer a {
 
   #about {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
   }
 
   #about-col-1 {
@@ -800,8 +825,8 @@ footer a {
   }
 
   #about-col-2 {
-    margin: 0 1rem 0 1.5rem;
-    
+    padding: 0 1.5rem 0 1.5rem;
+    width: 100%;
   }
 
   .about-title {
@@ -813,8 +838,21 @@ footer a {
     text-align: justify;
   }
 
+  .card-deposition {
+    width: 80%;
+  }
+
+  .div-contacts {
+    gap: 0;
+  }
+
+  .div-contacts button {
+    margin-right: 2rem;
+  }
+
+  .div-insta {
+    margin-left: 2rem;
+  }
 
 
-
-  
 }

@@ -18,6 +18,10 @@ a {
 
 /*---------- NAV ----------*/
 
+.alter-padding {
+  padding-top: 200px!important;
+}
+
 
 #logo {
   font-size: 1.5rem;
@@ -36,6 +40,11 @@ a {
   display: flex;
   align-items: center;
 
+}
+
+#one {
+  display: flex;
+  padding-top: 12px; 
 }
 
 #nav {
@@ -58,7 +67,9 @@ a {
 #menu {
   display: flex;
   list-style: none;
+  width: 100%;
   gap: 1rem;
+  justify-content: space-between;
 }
 
 #menu a {
@@ -249,12 +260,9 @@ a {
   margin-left: 5rem;
 }
 
-#why p{
-  margin: 0 0 0 5rem;
-}
-
 .why-content {
   color: #696969;
+  margin: 0 0 0 5rem;
 }
 
 #why-col-1 {
@@ -305,7 +313,7 @@ a {
   display: flex;
   justify-content: flex-end;
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   gap: 120px;
 }
 
@@ -637,17 +645,26 @@ footer a {
 
 /*MEDIA QUERIE DO MENU MOBILE - 600px*/
 @media (max-width: 600px) {
+
+  #header {
+    padding: 0 0 0 1rem;
+    display: none;
+  }
+  #one {
+    flex-direction: column;
+  }
+
   #menu {
     display: block;
     position: absolute;
     width: 100%;
     top: 70px;
     right: 0px;
-    transition: 0.6s;
     z-index: 1000;
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
+    margin-bottom: 50px;
   }
   #nav.active #menu {
     height: calc(100vh - 70px);
@@ -710,4 +727,94 @@ footer a {
     width: 100%;
     height: 55%;
   }
+
+  #services {
+    height: 150vh;
+  }
+
+  #why {
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    height: 120vh;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  #why h1 {
+    margin: 0 0 1.5rem 1.5rem;
+    font-size: 28px;
+  }
+
+  .why-content {
+    margin: 0 0 0 1.5rem;
+    padding-right: 1rem;
+  }
+  .check-text {
+    margin-left: 5rem;
+  }
+  
+
+  #why-col-1 {
+    width: 100%;
+  }
+
+  #why-col-1 button {
+    margin-left: 1.5rem;
+  }
+
+  .check {
+    margin-left: 1.5rem;
+  }
+
+  #why-col-2 {
+    width: 0;
+    padding: 0;
+    margin: 0;
+  }
+  #why-col-2 img {
+    display: none;
+  }
+  .first-cards {
+    flex-direction: column;
+  }
+
+  .second-cards {
+    flex-direction: column;
+  }
+
+  #about {
+    width: 100%;
+    height: 50vh;
+  }
+
+  #about-col-1 {
+    display: none;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  #about-col-2 {
+    margin: 0 1rem 0 1.5rem;
+    
+  }
+
+  .about-title {
+    margin-bottom: 1.5rem;
+    text-align: right;
+  }
+
+  .about-content {
+    text-align: justify;
+  }
+
+
+
+
+  
 }

@@ -1,0 +1,53 @@
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    width: 100vw;
+  }
+  
+  #about-col-1{
+    width: 626px;
+    height: 401px;
+  }
+  
+  .about-rec-1 {
+    box-sizing: border-box;
+    width: 611px;
+    height: 375px;
+    border: 2px solid #143177;
+    border-radius: 1000px;
+  }
+  
+  .about-rec-2 {
+    box-sizing: border-box;
+    width: 611px;
+    height: 375px;
+    border: 2px solid #143177;
+    border-radius: 1000px;
+  }
+  
+  
+  .about-rec-3 {
+    position: relative;
+    width: 611px;
+    height: 375px;
+    background: url(assets/about-image.jpg);
+    background-position: center;
+    border-radius: 1000px;
+  }
+  
+  #about-col-2 {
+    width: 500px;
+    margin: 150px 0 0 0;
+  }
+  
+  #about-col-2 span {
+    color: #143177;
+  }
+  
+  .about-content {
+    color: #696969;
+  }
+  .about-title {
+    font-size: 32px;
+  }

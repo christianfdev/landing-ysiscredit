@@ -1,0 +1,139 @@
+#logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#logo span{
+  color: #143177;
+}
+
+.header {
+  padding: 1rem;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#one {
+  display: flex; 
+  align-items: center;
+}
+
+.nav {
+  width: 100vw;
+}
+
+.menu {
+  box-sizing: border-box;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#one {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.menu a:hover {
+    color: #143177;
+}
+
+
+/* MENU MOBILE */
+
+
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  visibility: hidden;
+  height: 0;
+  font-weight: 500;
+  gap: 0.4rem;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.menu-mobile li{
+  list-style: none;
+}
+
+.btn-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border: none;
+  background-color: #fff;
+  left: 2rem;
+  top: 1.4rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.btn-mobile {
+  height: 3px;
+  border-radius: 5px;
+  width: 1.3rem;
+  background-color: #000;
+}
+
+.active {
+  visibility: visible;
+  height: 5rem;
+}
+
+.btn-active {
+  background-color: #143177;
+}
+
+.btn-active div{
+  background-color: #fff;
+}
+
+.btn-menu-contact {
+  background-color: #143177;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 1.6rem;
+  cursor: pointer;
+}
+
+@media (max-width: 640px){
+  .disabled {
+    display: none;
+  }
+
+}
+
+@media (min-width: 640px){
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 2rem;
+    gap: 2rem;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .btn-menu-contact {
+    padding: 0.6rem 1.6rem;
+  }
+}

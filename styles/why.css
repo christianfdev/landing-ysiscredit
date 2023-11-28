@@ -1,0 +1,61 @@
+#why {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  #why span {
+    color: #143177;
+  }
+  
+  #why h1 {
+    font-size: 32px;
+    margin-left: 5rem;
+  }
+  
+  .why-content {
+    color: #696969;
+    margin: 0 0 0 5rem;
+  }
+  
+  #why-col-1 {
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  #why-col-1 button {
+    background-color: #143177;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 20px 12px 20px;
+    margin: 1rem 0 0 5rem;
+    cursor: pointer;
+  }
+  
+  .check {
+    display: flex;
+    margin: 1.5rem 0 0 5rem;
+  }
+  
+  .check-text {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5rem;
+  }
+  
+  
+  .check-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: -70px;
+  }
+  
+  #why-col-2{
+    width: 40%;
+  }
+  

@@ -1,0 +1,63 @@
+#depositions {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .depositions-title span {
+    color:#143177;
+  }
+  
+  .depositions-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  #depositions-cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card-deposition {
+    width: 559px;
+    height: 310px;
+    padding: 20px;
+    background-color: #143177;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    border-radius: 10px;
+  }
+  
+  .deposition-info {
+    display: flex;
+  }
+  
+  .deposition-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .div-info {
+    margin: 5px 0 0 10px;
+    line-height: 20px;
+  }
+  
+  .client {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .work {
+    color: #C7C9D9;
+    font-size: 14px;
+  }
+  
+  .deposition-content {
+    color: #fff;
+    line-height: 45px;
+    margin: 0;
+  }

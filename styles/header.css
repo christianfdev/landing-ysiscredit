@@ -51,6 +51,8 @@
 
 
 .menu-mobile {
+  position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem;
@@ -58,8 +60,9 @@
   height: 0;
   font-weight: 500;
   gap: 0.4rem;
-  width: 100vw;
   background-color: #fff;
+  width: 45vw;
+
 }
 
 .menu-mobile li{
@@ -89,7 +92,7 @@
 
 .active {
   visibility: visible;
-  height: 5rem;
+  height: 80vh;
 }
 
 .btn-active {
@@ -109,6 +112,7 @@
   padding: 0.5rem 1.6rem;
   cursor: pointer;
 }
+
 
 @media (max-width: 640px){
   .disabled {

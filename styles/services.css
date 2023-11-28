@@ -48,3 +48,9 @@
     height: 110vh;
   }
 }
+
+@media(max-height: 900px) {
+  .services {
+    height: 200vh
+  }
+}

@@ -49,8 +49,15 @@
   }
 }
 
-@media(max-height: 900px) {
+@media(max-height: 900px) and (orientation: portrait) {
+  .services {
+    height: 160vh
+  }
+}
+
+@media(max-height: 750px) and (orientation: portrait) {
   .services {
     height: 200vh
   }
 }
+

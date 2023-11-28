@@ -45,7 +45,28 @@
 
 @media (min-width: 640px) {
   .services { 
-    height: 110vh;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+  
+  .services-cards {
+    gap: 1rem;
+  }
+
+  .service-card {
+    padding: 0.5rem;
+    width: 13rem;
+    height: 10rem;
+  }
+
+  .service-card img {
+    width: 1.5rem;
+  }
+
+  .service-card p {
+    font-size: 0.7rem;
   }
 }
 

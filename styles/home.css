@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -8rem;
+    margin-top: -5rem;
 }
 
 .home-title {
@@ -20,6 +20,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home-title-img {
+    margin-top: -6rem;
+}
+
+.home-title-img img {
+    width: 20rem;
 }
 
 .home h1 {
@@ -34,4 +42,6 @@
 .home h1:last-child {
     color: #143177;
 }
+
+
 
